@@ -1,0 +1,26 @@
+header{
+    background: rgb(26, 15, 41);
+    color: rgb(206, 15, 88);
+}
+body{
+    background: black;
+    color: rgb(25, 17, 95);
+}
+
+.body-section{
+       margin: 10% 0;
+}
+footer{
+    background: rgb(33, 17, 54);
+    color: rgb(209, 132, 17); 
+}
+
+#word-here div{
+    display: inline-block;
+    padding: 1%;
+    margin: 1%;
+    border-bottom: 2px solid rgb(22, 15, 128);
+}
+#naming{
+    color: rgb(209, 132, 17);
+}
