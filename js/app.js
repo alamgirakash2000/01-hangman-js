@@ -1,4 +1,8 @@
-const game= new Hangman('Alamgir Akash', 4)
+var word=['Cat dog', 'Dhaka Bangladesh','Polao Biriyani','Warm Hole','Game Of Thrones','Breaking Bad','End Game']
+var guessLimit=[3,4,5,3,4,4,3,3]
+var randNumber=Math.floor(Math.random()*8)
+
+var game= new Hangman(word[randNumber], guessLimit[randNumber])
 
 game.show()
 
