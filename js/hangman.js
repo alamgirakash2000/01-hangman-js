@@ -40,7 +40,7 @@ class Hangman {
         let newStr= ''
         newStr+=this.word[0]
         for( var i=1;i<this.word.length-1;i++){
-            if(this.guessedLetters.includes(this.word[i])||this.word[i]===' '){
+            if(this.guessedLetters.includes(this.word[i])||this.word[i]===' '||this.word[i]===this.word[0]||this.word[i]===this.word[this.word.length-1]){
                 newStr+= this.word[i]
             }else{
                 newStr+= "*"
