@@ -12,9 +12,7 @@ async function getWeatherAW(){
 getWeatherAW().then(word => {
     game= new Hangman(word, randNumber)
     game.show()
-    // console.log(word);
 })
-
 
 window.addEventListener('keypress', function(e){
     if(e.keyCode===13){
