@@ -17,6 +17,9 @@ getWeatherAW().then(word => {
 
 
 window.addEventListener('keypress', function(e){
+    if(e.keyCode===13){
+        location.assign('../index.html')
+    }
     game.makeGuess(e.key)
     game.calculateStatus()
     game.show()
